@@ -11,13 +11,13 @@
     */
 
     header {
-       background-color: green;
+       background-color: rgb(77, 77, 78);
        color: white;
        padding: 5px;
     }
 
     header h1 {
-       font-size: 25px;
+       font-size: 20px;
        text-align: left; 
    }
 
@@ -29,7 +29,7 @@
     }
 
     .destaque {
-      background-color: rgb(3, 150, 3);
+      background-color: rgb(97, 97, 97);
       padding: 20px;
       border-radius: 10px;
       text-align: center;
@@ -42,6 +42,10 @@
     }
 
     footer {
+      text-align: center;
+      font-size: 14px;
+      padding: 10px;
+    }
       text-align: center;
       font-size: 14px;
       padding: 10px;
