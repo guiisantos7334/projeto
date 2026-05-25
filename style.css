@@ -1,0 +1,48 @@
+    /* ===== RESET BÁSICO — não precisa mexer ===== */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; }
+
+    /* ===== AQUI COMEÇA O QUE É SEU =====
+       Estilize o cabeçalho, o conteúdo e o rodapé.
+       Dicas de propriedades pra brincar:
+       - background, color, padding, margin
+       - text-align, font-size, font-weight
+       - max-width, border-radius
+    */
+
+    header {
+       background-color: green;
+       color: white;
+       padding: 5px;
+    }
+
+    header h1 {
+       font-size: 25px;
+       text-align: left; 
+   }
+
+    main {
+      max-width: 1370px;
+      margin: auto;
+      padding: 3px;
+      border-radius: 20px;
+    }
+
+    .destaque {
+      background-color: rgb(3, 150, 3);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    img {
+       width: 100vw;
+       height: 100vh;
+       object-fit: cover;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      padding: 10px;
+    }
